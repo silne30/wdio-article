@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "selenium": "mocha --timeout 10000 --bail --compilers js:babel-core/register --require babel-polyfill ./selenium-tests/index.js"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chromedriver": "^2.44.1",
+    "geckodriver": "^1.14.1",
+    "mocha": "^5.2.0",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  },
+  "dependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/register": "^7.0.0"
+  }
+}
